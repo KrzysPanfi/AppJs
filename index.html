@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <h1>Lista studentów</h1>
+    <form>
+        <label>Imie:</label>
+        <input type="text" id="firstName" />
+
+        <label>Nazwisko:</label>
+        <input type="text" id="lastName" />
+        
+        <label>Indeks:</label>
+        <input type="text" id="index" />
+    </form>
+    <button id="addBtn" class="btn">Utwórz</button>
+    <table id="studentsTable" class="highlight">
+        <thead>
+            <tr>
+                <th>Imie</th>
+                <th>Nazwisko</th>
+                <th>Numer indeksu</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
